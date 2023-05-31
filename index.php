@@ -26,14 +26,15 @@
     var Login =document.getElementById('e-mail')
    var senha =document.getElementById('senha')
 
-  if (Login =="rafa@gmail.com" && senha == "brabo")
+  if (Login=="rafa@gmail.com" && senha== "brabo"){
   alert("brabo deu certo!")
   location.href="error.html";
+
 }
 else{
     alert("faça denovo")
 }
-
+   }
  </script> 
   
 </body>
