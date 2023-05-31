@@ -28,7 +28,7 @@
     var senha =document.getElementById('senha').value;
 
   if (Login=="rafa@gmail.com" && senha== "brabo"){
-  alert("brabo deu certo!")
+  alert("brabo deu certo!");
   location.href="error.html";
 
 }
