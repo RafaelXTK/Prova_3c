@@ -59,7 +59,7 @@ body {
 
 
 .formLogin input:focus {
-    border: 1px solid #f72585;
+    border: 1px solid #000000;
 }
 
 .formLogin label {
