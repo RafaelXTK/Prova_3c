@@ -17,14 +17,15 @@
             <label for="password">Senha</label>
             <input type="password" placeholder="Digite seu e-mail" id="senha" />
             <a href="/">Ainda nao tenho conta</a>
-            <input type="submit" value="Acessar" onclick="logar(); return false" class="btn"/>
+            <input type="submit" value="Acessar" onclick="logar()" class="btn"/>
         </form>
     </div>
 
- <script>   
+ <script>
+    
    function logar(){
-    var Login =document.getElementById('e-mail')
-   var senha =document.getElementById('senha')
+    var Login =document.getElementById('e-mail').value;
+    var senha =document.getElementById('senha').value;
 
   if (Login=="rafa@gmail.com" && senha== "brabo"){
   alert("brabo deu certo!")
