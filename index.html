@@ -17,7 +17,7 @@
             <label for="password">Senha</label>
             <input type="password" placeholder="Digite seu e-mail" id="senha" />
             <a href="/">Ainda nao tenho conta</a>
-            <input type="submit" value="Acessar" onclick="logar()" class="btn"/>
+            <input type="submit" value="Acessar" onclick="logar(); return false" class="btn"/>
         </form>
     </div>
 
@@ -29,7 +29,7 @@
 
   if (Login=="rafa@gmail.com" && senha== "brabo"){
   alert("brabo deu certo!");
-  window.location.href="index.html";
+  window.location="index.html";
 
 }
 else{
